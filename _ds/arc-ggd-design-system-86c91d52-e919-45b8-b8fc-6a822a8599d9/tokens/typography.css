@@ -1,0 +1,41 @@
+:root {
+  /* ── Font Families ────────────────────────────────────────── */
+  --font-sans:   'FreeSans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:   'Courier New', Courier, monospace;
+
+  /* ── Font Sizes ───────────────────────────────────────────── */
+  --text-xs:    0.625rem;   /*  10px */
+  --text-sm:    0.75rem;    /*  12px */
+  --text-base:  0.9375rem;  /*  15px */
+  --text-md:    1.0625rem;  /*  17px */
+  --text-lg:    1.25rem;    /*  20px */
+  --text-xl:    1.5rem;     /*  24px */
+  --text-2xl:   2rem;       /*  32px */
+  --text-3xl:   2.75rem;    /*  44px */
+  --text-4xl:   3.75rem;    /*  60px */
+  --text-5xl:   5rem;       /*  80px */
+  --text-6xl:   7rem;       /* 112px */
+
+  /* ── Font Weights ─────────────────────────────────────────── */
+  --weight-regular: 400;
+  --weight-bold:    700;
+
+  /* ── Line Heights ─────────────────────────────────────────── */
+  --leading-tight:  1.05;
+  --leading-snug:   1.2;
+  --leading-normal: 1.45;
+  --leading-relaxed:1.65;
+
+  /* ── Letter Spacing ───────────────────────────────────────── */
+  --tracking-tight:   -0.03em;
+  --tracking-normal:   0em;
+  --tracking-wide:     0.06em;
+  --tracking-wider:    0.12em;
+  --tracking-widest:   0.2em;
+
+  /* ── Semantic Type Roles ──────────────────────────────────── */
+  --type-display:      var(--font-sans);
+  --type-body:         var(--font-sans);
+  --type-label:        var(--font-sans);
+  --type-code:         var(--font-mono);
+}
